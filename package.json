@@ -1,0 +1,17 @@
+{
+  "name": "is219day2",
+  "version": "1.0.0",
+  "description": "First JS Node Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Bryan Bronstein",
+  "email": "bb389@njit.edu",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
