@@ -1,9 +1,9 @@
-const sum = require('./sum');
-const subtract = require('./subtract');
-const multiply = require('./multiply');
-const divide = require('./divide');
-const square = require('./square');
-const squareroot = require('./squareroot');
+const sum = require('./functions/sum');
+const subtract = require('./functions/subtract');
+const multiply = require('./functions/multiply');
+const divide = require('./functions/divide');
+const square = require('./functions/square');
+const squareroot = require('./functions/squareroot');
 
 a = 3;
 b = 6;
