@@ -1,11 +1,11 @@
 {
-  "name": "is219day2",
+  "name": "IS219_CalcProject",
   "version": "1.0.0",
   "description": "First JS Node Project",
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
     "start": "node index.js"
   },
   "keywords": [],
