@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls",
     "start": "node index.js"
   },
   "keywords": [],
@@ -12,6 +13,7 @@
   "email": "bb389@njit.edu",
   "license": "ISC",
   "devDependencies": {
+    "coveralls": "^3.0.9",
     "jest": "^25.1.0"
   }
 }

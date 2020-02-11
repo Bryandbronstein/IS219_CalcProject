@@ -1,2 +1,2 @@
 # IS219_CalcProject
-A calculator with various mathemeatical functions + tests for those funcitons
+A calculator with various mathemeatical/statistical functions + tests for those funcitons
