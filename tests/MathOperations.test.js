@@ -1,4 +1,9 @@
 const MathOperations = require('../functions/MathOperations');
+array = [1,2,3,4,5];
+
+test('add 1,2,3,4,5 to equal 15', () => {
+    expect(MathOperations.sum(array)).toBe(15);
+});
 
 test('Multiply 6 and 2 to equal 12', () => {
     expect(MathOperations.product(6, 2)).toBe(12);

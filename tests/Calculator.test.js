@@ -30,6 +30,6 @@ test('Square root of 36 to equal 6', () => {
     expect(Calc.result).toBe(6);
 });
 test('The sum of 1,2,3,4,5 equals 15', () => {
-    expect(Calc.SumList(array)).toBe(15);
+    expect(Calc.Add(array)).toBe(15);
     expect(Calc.result).toBe(15);
 });

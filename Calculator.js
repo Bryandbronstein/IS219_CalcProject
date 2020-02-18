@@ -20,8 +20,5 @@ class Calculator {
     SquareRoot(a) {
         return this.result = MathOperations.squareRoot(a);
     }
-    SumList(array) {
-        return this.result = MathOperations.sumList(array);
-    }
 }
 module.exports = Calculator;
