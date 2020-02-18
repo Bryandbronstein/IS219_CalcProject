@@ -28,7 +28,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:functions\MathOperations.js
+SF:functions/MathOperations.js
 FN:9,(anonymous_0)
 FN:12,(anonymous_1)
 FN:15,(anonymous_2)
@@ -62,7 +62,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:functions\divide.js
+SF:functions/divide.js
 FN:1,divide
 FNF:1
 FNH:1
@@ -75,7 +75,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:functions\multiply.js
+SF:functions/multiply.js
 FN:1,multiply
 FNF:1
 FNH:1
@@ -88,7 +88,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:functions\square.js
+SF:functions/square.js
 FN:1,square
 FNF:1
 FNH:1
@@ -101,7 +101,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:functions\squareroot.js
+SF:functions/squareroot.js
 FN:1,squareroot
 FNF:1
 FNH:1
@@ -114,7 +114,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:functions\subtract.js
+SF:functions/subtract.js
 FN:1,subtract
 FNF:1
 FNH:1
@@ -127,7 +127,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:functions\sum.js
+SF:functions/sum.js
 FN:2,(anonymous_0)
 FN:5,(anonymous_1)
 FNF:2

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1582032994565" clover="3.2.0">
-  <project timestamp="1582032994565" name="All files">
+<coverage generated="1582033389184" clover="3.2.0">
+  <project timestamp="1582033389184" name="All files">
     <metrics statements="38" coveredstatements="38" conditionals="4" coveredconditionals="3" methods="19" coveredmethods="19" elements="61" coveredelements="60" complexity="0" loc="38" ncloc="38" packages="2" files="8" classes="8"/>
     <package name="IS219_CalcProject">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
-      <file name="Calculator.js" path="C:\Users\bryan\WebstormProjects\IS219_CalcProject\Calculator.js">
+      <file name="Calculator.js" path="/home/bryan/PhpstormProjects/IS219_CalcProject/Calculator.js">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
         <line num="1" count="1" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
@@ -18,7 +18,7 @@
     </package>
     <package name="IS219_CalcProject.functions">
       <metrics statements="30" coveredstatements="30" conditionals="4" coveredconditionals="3" methods="13" coveredmethods="13"/>
-      <file name="MathOperations.js" path="C:\Users\bryan\WebstormProjects\IS219_CalcProject\functions\MathOperations.js">
+      <file name="MathOperations.js" path="/home/bryan/PhpstormProjects/IS219_CalcProject/functions/MathOperations.js">
         <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
         <line num="1" count="2" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
@@ -34,32 +34,32 @@
         <line num="25" count="2" type="stmt"/>
         <line num="30" count="2" type="stmt"/>
       </file>
-      <file name="divide.js" path="C:\Users\bryan\WebstormProjects\IS219_CalcProject\functions\divide.js">
+      <file name="divide.js" path="/home/bryan/PhpstormProjects/IS219_CalcProject/functions/divide.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="3" type="stmt"/>
         <line num="4" count="3" type="stmt"/>
       </file>
-      <file name="multiply.js" path="C:\Users\bryan\WebstormProjects\IS219_CalcProject\functions\multiply.js">
+      <file name="multiply.js" path="/home/bryan/PhpstormProjects/IS219_CalcProject/functions/multiply.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="3" type="stmt"/>
         <line num="4" count="3" type="stmt"/>
       </file>
-      <file name="square.js" path="C:\Users\bryan\WebstormProjects\IS219_CalcProject\functions\square.js">
+      <file name="square.js" path="/home/bryan/PhpstormProjects/IS219_CalcProject/functions/square.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="3" type="stmt"/>
         <line num="4" count="3" type="stmt"/>
       </file>
-      <file name="squareroot.js" path="C:\Users\bryan\WebstormProjects\IS219_CalcProject\functions\squareroot.js">
+      <file name="squareroot.js" path="/home/bryan/PhpstormProjects/IS219_CalcProject/functions/squareroot.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="3" type="stmt"/>
         <line num="4" count="3" type="stmt"/>
       </file>
-      <file name="subtract.js" path="C:\Users\bryan\WebstormProjects\IS219_CalcProject\functions\subtract.js">
+      <file name="subtract.js" path="/home/bryan/PhpstormProjects/IS219_CalcProject/functions/subtract.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="3" type="stmt"/>
         <line num="4" count="3" type="stmt"/>
       </file>
-      <file name="sum.js" path="C:\Users\bryan\WebstormProjects\IS219_CalcProject\functions\sum.js">
+      <file name="sum.js" path="/home/bryan/PhpstormProjects/IS219_CalcProject/functions/sum.js">
         <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
         <line num="3" count="21" type="stmt"/>
         <line num="4" count="21" type="cond" truecount="2" falsecount="0"/>
