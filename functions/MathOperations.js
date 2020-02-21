@@ -1,4 +1,4 @@
-const sum = require('./sum');
+const addition = require('./sum');
 const multiply = require('./multiply');
 const divide = require('./divide');
 const subtract = require('./subtract');
@@ -6,8 +6,12 @@ const square = require('./square');
 const squareroot = require('./squareroot');
 
 class MathOperations {
-    static sum(a,b) {
-        return sum(a,b);
+    static sum(a = null, b = null) {
+        if(Array.isArray(a)) {
+            return addition.sum(a);
+        } else {
+            return addition.sum(a,b);
+        }
     }
     static product(a,b) {
         return multiply(a,b);
@@ -24,14 +28,6 @@ class MathOperations {
     static squareRoot (a){
         return squareroot(a);
     }
-    static sumList(array = []) {
-        let result = 0;
-        array.forEach(function (item) {
-            result = sum(result, item);
-        });
-        return result;
-    }
-
 }
 
 module.exports = MathOperations;

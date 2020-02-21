@@ -1,9 +1,12 @@
 const MathOperations = require('./functions/MathOperations');
 
 class Calculator {
-
-    Add(a,b) {
-        return this.result = MathOperations.sum(a, b);
+    Add(a = null, b = null) {
+        if (Array.isArray(a)) {
+            return this.result = MathOperations.sum(a);
+        } else {
+            return this.result = MathOperations.sum(a, b);
+        }
     }
     Subtract(a,b) {
         return this.result = MathOperations.difference(a,b);
@@ -19,9 +22,6 @@ class Calculator {
     }
     SquareRoot(a) {
         return this.result = MathOperations.squareRoot(a);
-    }
-    SumList(array) {
-        return this.result = MathOperations.sumList(array);
     }
 }
 module.exports = Calculator;

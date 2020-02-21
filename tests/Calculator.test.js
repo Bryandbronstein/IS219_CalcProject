@@ -1,6 +1,6 @@
 const Calculator = require('../Calculator');
 let Calc = new Calculator();
-let array = [1,2,3,4,5];
+let array = [1,2,3,4];
 
 test('Multiply 6 and 2 to equal 12', () => {
     expect(Calc.Multiply(6, 2)).toBe(12);
@@ -29,7 +29,8 @@ test('Square root of 36 to equal 6', () => {
     expect(Calc.SquareRoot(36)).toBe(6);
     expect(Calc.result).toBe(6);
 });
-test('The sum of 1,2,3,4,5 equals 15', () => {
-    expect(Calc.SumList(array)).toBe(15);
-    expect(Calc.result).toBe(15);
+test('Calculator add array of 1,2,3,4 and get result 10', () => {
+    expect(Calc.Add(array)).toBe(10);
+    expect(Calc.result).toBe(10);
+
 });
