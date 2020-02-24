@@ -1,4 +1,4 @@
-const Calculator = require('../Calculator');
+const Calculator = require('../functions/Calculator');
 let Calc = new Calculator();
 let array = [1,2,3,4];
 
